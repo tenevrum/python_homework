@@ -3,7 +3,7 @@ import math
 
 bob = turtle.Turtle()
 
-def triangle_pie(t: turtle.Turtle, n: float, radius: float):
+def triangle_pie(t: turtle.Turtle, n: int, radius: float):
     '''Рисует плотно прилегающие треугольники друг к другу,
     которые замыкаются и таким образом получается многоугольник'''
     apex_angle = 360/n
